@@ -28,5 +28,5 @@ jobs:
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: public # The folder the action should deploy.
+          folder: /teste # The folder the action should deploy.
           ssh-key: ${{secrets.SERVE_SSH_KEY}}
