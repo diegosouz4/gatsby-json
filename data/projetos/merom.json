@@ -1,0 +1,17 @@
+{
+  "title": "Merom consultoria",
+  "descricao": "Branding desenvolvido para a empresa de consultoria financeira curitibana <strong>Merom consultoria</strong>.",
+  "slug": "merom",
+  "tags": ["Branding"],
+  "link": "",
+  "images": [
+    "./images/merom/thumb-merom-consultoria.jpg",
+    "./images/merom/projeto-merom-capa.jpg",
+    "./images/merom/projeto-merom-construcao.jpg",
+    "./images/merom/projeto-merom-aplicacao.jpg",
+    "./images/merom/projeto-merom-aplicacao-cartao.jpg",
+    "./images/merom/projeto-merom-aplicacao-papelaria.jpg",
+    "./images/merom/projeto-merom-aplicacao-marca-sobreposicao.jpg",
+    "./images/merom/projeto-merom-aplicacao-footer.jpg"
+  ]
+}

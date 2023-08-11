@@ -1,0 +1,110 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body,
+button,
+input,
+textarea {
+  font-family: var(--font-main);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: var(--color-support);
+  font-family: var(--font-main);
+  font-weight: 700;
+  text-transform: capitalize;
+  line-height: 1.1;
+}
+
+p {
+  color: var(--color-gray-300);
+  font-size: var(--text);
+  font-weight: 400;
+  line-height: 1.35;
+  max-width: 65ch;
+}
+
+p + p {
+  margin-top: 1rem;
+}
+
+section p + a {
+  margin-top: var(--p-1-5);
+}
+
+p > strong {
+  font-weight: 600;
+  color: var(--color-support);
+}
+
+hr {
+  border: 0;
+  border-radius: 4px;
+  background-color: var(--color-gray);
+  height: 3px;
+  max-width: 150px;
+  margin: 0.75rem auto var(--p-2-5);
+  position: relative;
+  &::after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: var(--color-main);
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+button,
+input {
+  outline: 0;
+  border: 0;
+}
+
+section {
+  padding-top: var(--p-2-5);
+  padding-bottom: var(--p-2-5);
+  @include for-desktop-only {
+    padding-top: var(--p-5);
+    padding-bottom: var(--p-5);
+  }
+  .container {
+    overflow: hidden;
+  }
+}
+
+button {
+  background: none;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  &:disabled {
+    cursor: not-allowed;
+  }
+}
+
+body[data-darkmode="true"] {
+  background-color: var(--cor-dark-suporte-escuro);
+  h1,
+  h2,
+  h3,
+  h4 {
+    color: var(--color-gray);
+  }
+  p {
+    color: var(--color-gray-100);
+    & > strong {
+      color: var(--darkmode-support);
+    }
+  }
+  hr {
+    background-color: var(--darkmode-support-100);
+  }
+}

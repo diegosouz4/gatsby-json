@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@700&family=Poppins:wght@400;600&display=swap");
+
+:root {
+  // Colors
+  --color-main: #ffd432;
+  --color-main-200: #f2c20e;
+  --color-main-300: #5f5410;
+  --color-support: #253751;
+  --color-support-300: #182230;
+  --color-gray: #fbfbfb;
+  --color-gray-100: #e1e1e1;
+  --color-gray-200: #a7a7a7;
+  --color-gray-300: #555;
+  --color-error: #f41;
+
+  //Darkmode cores
+  --darkmode-support: #4687e3;
+  --darkmode-support-100: #3a5d8e;
+  --darkmode-support-200: #181f28;
+  --darkmode-support-300: #151a21;
+  --darkmode-support-400: #0c0f14;
+  --darkmode-gradient: linear-gradient(180deg, #28374d, #1d2735);
+
+  //Neumorphic cores
+  --neu-color: #fff;
+  --neu-color-100: #c8d0e7;
+  --neuShadow: 0.3rem 0.3rem 0.6rem var(--neuEscuro),
+    -0.2rem -0.2rem 0.5rem var(--neuClaro);
+  --neuShadow-inset: inset 0.2rem 0.2rem 0.5rem var(--neuEscuro),
+    inset 0.2rem 0.2rem 0.5rem var(--neuClaro);
+
+  --neu-color-darkmode: #2c3c50;
+  --neu-color-darkmode-100: #031016;
+  --neuShadow-darkmode: 0.3rem 0.3rem 0.6rem var(--neuEscuro-dark),
+    -0.2rem -0.2rem 0.5rem var(--neuClaro-dark);
+  --neuShadow-darkmode-inset: inset 0.2rem 0.2rem 0.5rem var(--neuEscuro-dark),
+    inset 0.2rem 0.2rem 0.5rem var(--neuClaro-dark);
+
+  // Types
+  --font-main: "Fira Sans", sans-serif;
+  --font-support: "Poppins", sans-serif;
+
+  // type sizes
+  --title: 1.25rem; //20px;
+  --subtitle: 1.125rem; //18px
+  --text: 1rem; //16px
+  --tag: 0.75rem; //12px
+
+  @media (min-width: 768px) {
+    --tag: 0.875rem; //14px
+  }
+
+  // paddins
+  --p-1: 1rem;
+  --p-1-5: 1.5rem;
+  --p-2: 2rem;
+  --p-2-5: 2.5rem;
+  --p-5: 5rem;
+
+  //Animations
+  --pop: 250ms cubic-bezier(1, -0.01, 0.19, 1.47);
+  --pop-slow: 1s cubic-bezier(1, -0.01, 0.19, 1.47);
+
+  // Effects
+  --box-shadow: 0 1rem 1rem -0.5rem rgba(37, 55, 81, 0.16);
+}

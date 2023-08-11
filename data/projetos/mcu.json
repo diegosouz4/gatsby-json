@@ -1,0 +1,17 @@
+{
+  "title": "Ministério Cristo em Unidade",
+  "descricao": "Processo utilizado para o desenvolvimento do novo site da Igreja <strong>Ministério Cristo em Unidade</strong>. Para facilitar a manutenção do conteúdo do site utilizei o CMS mais famoso do mercado, o Wordpress.",
+  "slug": "mcu",
+  "tags": ["CSS", "HTML", "Javascript", "Wordpress"],
+  "link": "https://www.ministeriocristoemunidade.com.br",
+  "images": [
+    "./images/mcu/thumb-mcu-ministério-cristo-em-unidade.jpg",
+    "./images/mcu/projeto-mcu-capa.jpg",
+    "./images/mcu/projeto-mcu-tipos-e-cores.jpg",
+    "./images/mcu/projeto-mcu-desktop.jpg",
+    "./images/mcu/projeto-mcu-desktop-2.jpg",
+    "./images/mcu/projeto-mcu-desktop-3.jpg",
+    "./images/mcu/projeto-mcu-desktop-4.jpg",
+    "./images/mcu/projeto-mcu-desktop-5.jpg"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "title": "Planetário do Rio",
+  "descricao": "Site desenvolvido para a <strong>Fundação Planetário do Rio de Janeiro</strong>. Que se dedica a difundir Astronomia e ciências afins gerando em todos os públicos, cariocas e turistas, uma experiência encantadora e inesquecível.",
+  "slug": "planetario",
+  "tags": ["CSS", "HTML", "Javascript", "Wordpress"],
+  "link": "http://planeta.rio/",
+  "images": [
+    "./images/planetario/projeto-planetario-thumb.jpg",
+    "./images/planetario/projeto-planetario-capa.jpg",
+    "./images/planetario/projeto-planetario-cores.jpg",
+    "./images/planetario/projeto-planetario-apresentacao-1.jpg",
+    "./images/planetario/projeto-planetario-apresentacao-2.jpg",
+    "./images/planetario/projeto-planetario-apresentacao-3.jpg",
+    "./images/planetario/projeto-planetario-apresentacao-4.jpg",
+    "./images/planetario/projeto-planetario-apresentacao-5.jpg"
+  ]
+}

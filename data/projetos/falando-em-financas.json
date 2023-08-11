@@ -1,0 +1,17 @@
+{
+  "title": "Falando em finanças",
+  "descricao": "O blog <strong>Falando em finanças</strong> tem como objetivo falar sobre finanças de maneira simples, prática e objetiva.",
+  "slug": "falando-em-financas",
+  "tags": ["Branding"],
+  "link": "https://falandoemfinancas.com.br/",
+  "images": [
+    "./images/falando-em-financas/thumb-falando-em-financas.jpg",
+    "./images/falando-em-financas/projeto-falando-em-financas-capa.jpg",
+    "./images/falando-em-financas/projeto-falando-em-financas-montagem.jpg",
+    "./images/falando-em-financas/projeto-falando-em-financas-apresentacao.jpg",
+    "./images/falando-em-financas/projeto-falando-em-financas-apresentacao-2.jpg",
+    "./images/falando-em-financas/projeto-falando-em-financas-apresentacao-3.jpg",
+    "./images/falando-em-financas/projeto-falando-em-financas-apresentacao-4.jpg",
+    "./images/falando-em-financas/projeto-falando-em-financas-apresentacao-5.jpg"
+  ]
+}
