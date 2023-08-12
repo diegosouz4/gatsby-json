@@ -23,7 +23,7 @@ jobs:
       - name: Install and Build 🔧
         run: |
           yarn
-          GA_ID=${{ secrets.GA_ID }} yarn build
+          GA_ID=${{ secrets.GA_ID }} yarn build --prefix-paths
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
