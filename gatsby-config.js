@@ -2,6 +2,7 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
+  pathPrefix: `/gatsby-json`,
   siteMetadata: {
     title: `Diego Souza | desenvolvedor front-end`,
     description:
